@@ -22,7 +22,14 @@ body {
     background-image: linear-gradient(
         rgba(0, 0, 0, 0.2),
         rgba(0, 0, 0, 0.2)),
-        url()
+        url(images/vecteezy_close-up-of-hot-latte-coffee-in-the-cafe-photo-banner-for_10377416_79.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    min-height: 70vh;
+ }   
 
-    
-}
+ 
+
