@@ -55,7 +55,7 @@ body {
  .menu .navbar ul li a {
     font-size: 18px;
     padding: 20px;
-    color: #FFFFFF;
+    color: #ecebeb;
     display: block;
     font-weight: 600;
  }
@@ -71,6 +71,10 @@ body {
  .menu label {
     cursor: pointer;
     display: none;
+ }
+
+ .submenu {
+   position: relative;
  }
 
  .submenu #carrito {
@@ -89,3 +93,46 @@ body {
     min-width: 400px;
  }
  
+ table {
+   width: 100%;
+ }
+
+ th, td {
+   color: #FFFFFF;
+ }
+
+ .borrar {
+   background-color: #f35200;
+   border-radius: 50%;
+   padding: 5px 10px;
+   color: #FFFFFF;
+   font-weight: 800;
+ }
+
+ .header-txt {
+   padding: 0 200px;
+   text-align: center;
+ }
+
+ .header-txt h1 {
+   font-size: 70px;
+   line-height: 80px;
+   color: #FFFFFF;
+   margin-bottom: 20px;
+ }
+
+ .header-txt p {
+   font-size: 16px;
+   color: #ecebeb;
+   margin-bottom: 20px;
+ }
+
+ .btn-1 {
+   display: inline-block;
+   background-color: #f35200;
+   color: #FFFFFF;
+   padding: 13px 35px;
+   border-radius: 25px;
+   text-transform: capitalize;
+   font-size: 16px;
+ }
