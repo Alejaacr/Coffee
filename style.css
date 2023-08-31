@@ -42,7 +42,10 @@ body {
  }
 
  .logo {
-    color: #FFFFFF;
+   background-image: linear-gradient(
+        rgba(0, 0.2),
+        rgba(0, 0.2)),
+        url(images/LogoSealCoffee.png);
     font-size: 25px;
     font-weight: 800;
  }
@@ -58,6 +61,7 @@ body {
     color: #f1efef;
     display: block;
     font-weight: 600;
+   
  }
 
  #menu {
