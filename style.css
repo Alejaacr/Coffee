@@ -10,19 +10,19 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #2d343c;
+    background-color: #ccc782;
 }
 
 .container {
     max-width: 1600px;
-    margin: o auto;
+    margin: 0 auto;
 }
 
 .header {
     background-image: linear-gradient(
         rgba(0, 0, 0, 0.2),
         rgba(0, 0, 0, 0.2)),
-        url(images/vecteezy_close-up-of-hot-latte-coffee-in-the-cafe-photo-banner-for_10377416_79.jpg);
+        url(images/MicrosoftTeams-image\ \(5\)_0.webp);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -47,14 +47,14 @@ body {
     font-weight: 800;
  }
 
- .menu .navbar ul li {
+ .menu .navebar ul li {
     position: relative;
     float: left;
  }
 
- .menu .navbar ul li a {
-    font-size: 18px;
-    padding: 20px;
+ .menu .navebar ul li a {
+    font-size: 25px;
+    padding: 15px;
     color: #f1efef;
     display: block;
     font-weight: 600;
