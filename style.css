@@ -2,7 +2,7 @@
 
 *{
     margin: 0;
-    padding: o;
+    padding: 0;
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
@@ -10,11 +10,11 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #ccc782;
+    background-color: #816f47;
 }
 
 .container {
-    max-width: 1600px;
+    max-width: 1500px;
     margin: 0 auto;
 }
 
@@ -28,7 +28,7 @@ body {
     background-size: cover;
     display: flex;
     align-items: center;
-    min-height: 70vh;
+    min-height: 80vh;
  }   
 
  .menu {
@@ -38,13 +38,25 @@ body {
     right: 0;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content:space-between;
  }
 
  .logo {
     color: #FFFFFF;
-    font-size: 25px;
-    font-weight: 800;
+    font-size: 15px;
+    font-weight: 700;
+ }
+
+ .logoSeal-container{
+   display: flex;
+   align-items: left;
+   padding: 10px 1px;
+
+ }
+
+ .logoSeal-container img{
+   max-width: 30%;
+   height: auto;
  }
 
  .menu .navebar ul li {
@@ -53,11 +65,11 @@ body {
  }
 
  .menu .navebar ul li a {
-    font-size: 25px;
+    font-size: 20px;
     padding: 15px;
     color: #f1efef;
     display: block;
-    font-weight: 600;
+    font-weight: 700;
    
  }
 
