@@ -44,7 +44,7 @@ body {
  .logo {
     color: #FFFFFF;
     font-size: 25px;
-    font-weight: 800;
+    font-weight: 900;
  }
 
  .menu .navebar ul li {
@@ -271,6 +271,74 @@ body {
  .link a:hover {
    color: #f35200;
  }
+
+ @media(max-width:991px) {
+
+   .menu {
+      padding: 20px;
+   }
+
+   .menu label {
+      display: initial;
+   }
+
+   .menu .navebar {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background-color: #2d343c;
+      display: none;
+   }
+
+   .menu .navebar ul li {
+      width: 100%;
+   }
+
+   #menu:checked ~ .navebar {
+      display: initial;
+   }
+
+   .logo {
+      display: none;
+   }
+
+   .header {
+      min-height: 0vh;
+   }
+
+   .header-content {
+      padding: 100px 30px;
+   }
+
+   .header-txt {
+      padding: 0;
+   }
+
+   .products {
+      padding: 30px;
+   }
+
+   .products-content {
+      grid-template-columns: repeat(1, 1fr);
+   }
+
+   .services {
+      padding: 30px;
+   }
+
+   .services-content {
+      grid-template-columns: repeat(1, 1fr);
+   }
+
+   .footer {
+      flex-direction: column;
+      text-align: center;
+   }
+
+ }
+
+
 
 
 
