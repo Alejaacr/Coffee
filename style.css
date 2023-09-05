@@ -38,13 +38,7 @@ body {
     right: 0;
     display: flex;
     align-items: center;
-    justify-content:space-between;
- }
-
- .logo {
-    color: #FFFFFF;
-    font-size: 25px;
-    font-weight: 800;
+    justify-content: space-between;
  }
 
  .menu .navebar ul li {
@@ -53,17 +47,15 @@ body {
  }
 
  .menu .navebar ul li a {
-    font-size: 25px;
-    padding: 15px;
-    color: #f1efef;
+    font-size: 22px;
+    padding: 60px;
+    color: #f7f7f7;
     display: block;
     font-weight: 600;
-   
  }
 
  .menu .navebar ul li a:hover{
-   color:#f35200;
-
+   color:#F35200;
  }
 
  #menu {
@@ -98,13 +90,13 @@ body {
     padding: 20px;
     min-width: 400px;
  }
- 
+
  table {
    width: 100%;
  }
 
  th, td {
-   color: #FFFFFF;
+   color: #000000;
  }
 
  .borrar {
@@ -144,7 +136,7 @@ body {
  }
 
  .btn-1:hover {
-   background-color: #d74801;
+   background-color: #a53903;
  }
 
  .icons {
@@ -160,28 +152,28 @@ body {
  }
 
  .products {
-   padding: 70px 0 0 0;
+   padding: 60px 0 0 0;
    text-align: center;
  }
 
  h2 {
    color: #FFFFFF;
-   font-size: 40px;
+   font-size: 50px;
    margin-bottom: 35px;
  }
 
  .products-content {
    display: grid;
    grid-template-columns: repeat(3, 1fr);
-   grid-gap:35px;
+   grid-gap:30px;
  }
 
  .product img {
-   width: 250px;
+   width: 280px;
  }
 
  .product h3 {
-   font-size: 20px;
+   font-size: 25px;
    color: #FFFFFF;
    margin-bottom: 10px;
  }
@@ -227,7 +219,7 @@ body {
 
  .service {
    background-color: #FFFFFF;
-   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
    padding: 35px;
    text-align: left;
  }
@@ -249,15 +241,15 @@ body {
    margin-top: 15px;
  }
 
- .footer {
-   padding: 50px 0;
+ .footer-container {
+   padding: 0 50px;
    display: flex;
-   justify-content: space-between;
+   justify-content: space-around;
  }
 
  .link h3 {
    color: #FFFFFF;
-   font-size: 18px;
+   font-size: 22px;
    margin-bottom: 15px;
  }
 
@@ -337,9 +329,4 @@ body {
    }
 
  }
-
-
-
-
-
 
