@@ -13,6 +13,11 @@ body {
     background-color: #1f1f1d;
 }
 
+/*Propiedad SS*/
+html {
+  scroll-behavior: smooth;
+}
+
 .container {
     max-width: 1600px;
     margin: 0 auto;
@@ -71,12 +76,15 @@ body {
     display: none;
  }
 
+ /* CARRITO */
  .submenu {
    position: relative;
+   cursor: pointer;
  }
 
  .submenu #carrito {
     display: none;
+    cursor: pointer;
  }
 
  .submenu:hover #carrito {
@@ -144,7 +152,7 @@ body {
    align-items: center;
    justify-content: space-between;
    background-color: #FFFFFF;
-   padding: 10px;
+   padding: 15px;
  }
 
  .icon img {
@@ -168,8 +176,16 @@ body {
    grid-gap:30px;
  }
 
+/*IMAGE ZOOM*/
  .product img {
    width: 280px;
+   cursor: pointer;
+   transition: 2s;
+ }
+
+ .product img:hover{
+   transform: scale(1.2);
+   transition: 2s;
  }
 
  .product h3 {
