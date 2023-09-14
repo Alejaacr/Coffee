@@ -1,6 +1,5 @@
 const carrito = document.getElementById('carrito');
 const elementos1 = document.getElementById('lista-1');
-const elementos2 = document.getElementById('lista-2');
 const lista = document.querySelector('#lista-carrito tbody');
 const vaciarCarritoBtn = document.getElementById('vaciar-carrito');
 
@@ -9,7 +8,6 @@ cargarEventListeners();
 function cargarEventListeners() {
 
     elementos1.addEventListener('click', comprarElemento);
-    elementos2.addEventListener('click', comprarElemento);
     carrito.addEventListener('click', eliminarElemento);
     vaciarCarritoBtn.addEventListener('click', vaciarCarrito);
 
@@ -47,7 +45,7 @@ function insertarCarrito(elemento){
             ${elemento.precio}
         </td>
         <td>
-            <a herf="#" class="borrar" data-id="${elemento.id}">X</a>
+            <a href="#" class="borrar" data-id="${elemento.id}">X</a>
         </td>
     
     `;

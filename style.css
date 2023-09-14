@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -19,7 +19,7 @@ html {
 }
 
 .container {
-    max-width: 1600px;
+    max-width: 1500px;
     margin: 0 auto;
 }
 
@@ -53,8 +53,8 @@ html {
 
  .menu .navebar ul li a {
     font-size: 22px;
-    padding: 60px;
-    color: #f7f7f7;
+    padding: 70px;
+    color: #FFFFFF;
     display: block;
     font-weight: 600;
  }
@@ -108,7 +108,7 @@ html {
  }
 
  .borrar {
-   background-color: #f35200;
+   background-color: #F35200;
    border-radius: 50%;
    padding: 5px 10px;
    color: #FFFFFF;
@@ -160,13 +160,13 @@ html {
  }
 
  .products {
-   padding: 60px 0 0 0;
+   padding: 70px 0 0 0;
    text-align: center;
  }
 
  h2 {
    color: #FFFFFF;
-   font-size: 50px;
+   font-size: 60px;
    margin-bottom: 35px;
  }
 
@@ -178,30 +178,34 @@ html {
 
 /*IMAGE ZOOM*/
  .product img {
-   width: 280px;
    cursor: pointer;
    transition: 2s;
  }
 
  .product img:hover{
-   transform: scale(1.2);
+   transform: scale(1.5);
    transition: 2s;
  }
 
+ .imagen_container {
+  width: 200px;
+  height: 235px;
+ }
+
  .product h3 {
-   font-size: 25px;
+   font-size: 30px;
    color: #FFFFFF;
-   margin-bottom: 10px;
+   margin-bottom: 5px;
  }
 
  .product p {
-   font-size: 16px;
-   color: #ecebeb;
+   font-size: 18px;
+   color: #ECEBEB;
    margin-bottom: 10px;
  }
 
  .precio {
-   color: #f35200 !important;
+   color: #F35200 !important;
  }
 
  .btn-2 {
@@ -217,14 +221,15 @@ html {
  }
 
  .services {
-   margin-top: 100px;
-   padding: 70px 0;
+   margin-top: 80px;
+   padding: 40px 0;
    background-color: #ebeff1;
    text-align: center;
  }
 
  .services h2 {
-   color: #2d343c;
+   color: #F35200;
+   font-size: 80px;
  }
 
  .services-content {
@@ -247,7 +252,7 @@ html {
  }
 
  hr {
-   width: 100px;
+   width: 150px;
    border: 2px solid #f35200;
  }
 
@@ -257,8 +262,8 @@ html {
    margin-top: 15px;
  }
 
- .footer-container {
-   padding: 0 50px;
+ .footer {
+   padding: 50px 0;
    display: flex;
    justify-content: space-around;
  }
@@ -307,7 +312,7 @@ html {
       display: initial;
    }
 
-   .logo {
+   .figure img {
       display: none;
    }
 
@@ -342,11 +347,10 @@ html {
    .footer {
       flex-direction: column;
       text-align: center;
+      cursor: pointer;
    }
 
+   
  }
 
- /*/
- .zoon:hover .product{
-  transform: scale(1.5);
- }
+ 
