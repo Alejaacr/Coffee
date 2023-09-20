@@ -226,6 +226,15 @@ html {
    color: #000000;
  }
 
+ /*BOTÓN-UP*/
+#botonArriba {
+  position: fixed;
+  bottom: 30px;
+  right: -120px;
+  width: 60px;
+  transition: all .4s;
+} 
+
  
 /*IMAGE ZOOM*/
  .product img {
@@ -272,7 +281,7 @@ html {
    background-color: #f35200;
  }
 
- /*TOTAL*/
+ /*TOTAL CARRITO*/
  .btn-3 {
   font-size: 18px;
   text-transform: capitalize;
@@ -399,6 +408,7 @@ html {
    color: #f35200;
  }
 
+ /*Responsive*/
  @media(max-width:991px) {
 
    .menu {
