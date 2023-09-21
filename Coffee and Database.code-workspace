@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../Documents/pagina web/Coffee"
+		},
+		{
+			"path": "../../../xampp/htdocs/Reservas"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Coffee"
+	}
+}
